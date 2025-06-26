@@ -1,0 +1,80 @@
+body {
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 1000px;
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hlogo {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px #e5e7eb;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text {
+    margin-top: 100px;
+    display: flex;
+}
+
+.left-text {
+    width: 500px;
+    height: 250px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.main-text {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.secondary-text {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.sign-up {
+    border-radius: 8px;
+    cursor: pointer;
+    background: royalblue;
+    color: white;
+    padding: 8px 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+ 
+.image-holder {
+    background-color: rgb(177, 177, 177);
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
