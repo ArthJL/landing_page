@@ -41,6 +41,7 @@ a {
 .hero-text {
     margin-top: 100px;
     display: flex;
+    margin-bottom: 100px;
 }
 
 .left-text {
@@ -77,4 +78,34 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.second-part {
+    text-align: center;
+}
+
+.title {
+    padding: 50px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    border-color: black;
+    border-radius: 20px;
+}
+.info {
+    max-width: 150px;
+    font-size: 18px;
+
 }
