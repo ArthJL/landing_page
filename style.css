@@ -47,6 +47,7 @@ a {
 .left-text {
     width: 500px;
     height: 250px;
+    box-sizing: border-box;
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -73,6 +74,7 @@ a {
 }
  
 .image-holder {
+    box-sizing: border-box;
     background-color: rgb(177, 177, 177);
     width: 500px;
     display: flex;
@@ -100,7 +102,8 @@ a {
     width: 150px;
     height: 150px;
     margin-bottom: 10px;
-    background-color: aqua;
+    box-sizing: border-box;
+    border: 5px solid aquamarine;
     outline-color: black;
     border-radius: 20px;
 }
@@ -136,4 +139,46 @@ a {
     font-weight: bold;
     font-size: 20px;
     margin-left: auto; 
+}
+
+.fourth-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fourth {
+    width: 700px;
+    margin: 200px 0 200px 0;
+    padding: 30px 100px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: white;
+}
+
+.clicking {
+    font-size: 20px;
+    color: white;
+}
+
+.third-button {
+    border: 1px solid white;
+    border-radius: 8px;
+    border-color: white;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: auto;
 }
