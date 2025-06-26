@@ -101,11 +101,39 @@ a {
     height: 150px;
     margin-bottom: 10px;
     background-color: aqua;
-    border-color: black;
+    outline-color: black;
     border-radius: 20px;
 }
 .info {
     max-width: 150px;
     font-size: 18px;
+    margin-bottom: 100px;
+}
 
+.third-part {
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content {
+    font-family: 'light italic';
+    font-size: 36px;
+    display: flex;
+  
+}
+
+#author {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: auto; 
 }
